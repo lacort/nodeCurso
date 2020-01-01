@@ -1,0 +1,34 @@
+{
+  "name": "nodecurso",
+  "version": "1.0.0",
+  "description": "Repositorio de curso Node da Hcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lacort/nodeCurso.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "fs",
+    "path",
+    "mongodb",
+    "udp",
+    "crypto"
+  ],
+  "author": "Jefferson Lacort",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lacort/nodeCurso/issues"
+  },
+  "homepage": "https://github.com/lacort/nodeCurso#readme",
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "yarn": "^1.21.1"
+  }
+}
