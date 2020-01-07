@@ -5,6 +5,7 @@ function soma (x, callback){
     
 }
 
+//callback function
 function resollveSoma(err,resultado){
     if (err) throw err;
     console.log(resultado);
