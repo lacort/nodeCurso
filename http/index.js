@@ -19,4 +19,3 @@ server.listen(port, hostname, () => {
 const open = (process.platform == 'darvin' ? 'open' : process.platform == 'win32' ? 'start' : 'xdg-open');
 
 require('child_process').exec(open + ' ' + url);
-
