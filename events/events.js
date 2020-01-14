@@ -5,7 +5,7 @@ class Evento extends EventEmitter {};
 const myEvent = new Evento();
 
 
-myEvent.on('security', (x,y)=>{
+myEvent.on('security', (x, y) => {
     console.log(`Executando o evento 'Segurança': ${x} ${y}`)
 });
 
