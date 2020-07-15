@@ -5,5 +5,6 @@ fs.readFile('text.txt', (err, data) => {
 
 })
 
+//boqueante
 const text = fs.readFileSync('text.txt');
 console.log(`Text : ${text}`)
