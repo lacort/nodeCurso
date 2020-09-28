@@ -10,3 +10,10 @@ myEvent.on('security', (x, y) => {
 });
 
 myEvent.emit('security', 'userAdmin', 'Alterou Salário');
+
+
+myEvent.on('close', (msg)=>{
+    console.log(`Assinate: ${msg}`)
+})
+
+myEvent.emit('close', `fechado`)
